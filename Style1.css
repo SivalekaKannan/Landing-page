@@ -1,0 +1,146 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color:#edeff4;
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: #00838F;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.nad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color: azure;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: azure;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+button{
+    background-color:#006064;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+button a{
+    color: azure;
+    font-weight: 600;
+    font-weight: 600;
+}
+li a:hover {
+    color: #FFEB3B; 
+}
+
+button:hover a {
+    color: #FFEB3B; 
+}
+
+h1{
+    
+    color: #006064;
+}
+
+p {
+    color: #00ACC1; 
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    justify-content: flex-end; 
+}
+
+h1, p {
+    margin: 0; 
+    padding: 10px;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.line{
+    height: 4px;
+    width: 150px;
+    background-color:#00ACC1 ;
+    margin: 0px auto;
+}
+.sec{
+    padding: 10px 5%;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+
+}
+.card{
+     width: 300px;
+     background:ivory;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+     border-radius: 5px;
+     padding: 5px;
+     margin-bottom: 20px;
+}
+.desc{
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+.title{
+    font-weight: 900;
+    font-size: 20px;
+    color:#006064;
+    padding: 0 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.price{
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    font-size: 15px;
+    color: ivory;
+}
+.btn:hover{
+    background-color: #00838F;
+}
+footer{
+    background-color: #00838F;
+    height: 20vh;
+}
+footer p{
+    text-align: center;
+    color: ivory;
+    line-height: 5vh;
+}
+footer p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: cadetblue;
+}
